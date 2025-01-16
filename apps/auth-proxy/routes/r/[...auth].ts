@@ -2,6 +2,7 @@ import { Auth } from "@auth/core";
 import Discord from "@auth/core/providers/discord";
 import { eventHandler, toWebRequest } from "h3";
 
+// what is happening
 export default eventHandler(async (event) =>
   Auth(toWebRequest(event), {
     basePath: "/r",
