@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
-    "dev": "expo start",
+    "dev": "expo start --android",
     "dev:android": "expo start --android",
     "dev:ios": "expo start --ios",
     "android": "expo run:android",
@@ -30,6 +30,7 @@
     "expo-secure-store": "^13.0.2",
     "expo-splash-screen": "~0.27.6",
     "expo-status-bar": "~1.12.1",
+    "expo-updates": "~0.25.27",
     "expo-web-browser": "^13.0.3",
     "nativewind": "~4.0.36",
     "react": "catalog:react18",
