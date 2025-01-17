@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5fac370d-d62a-4c3f-abbe-34150e2bee2d"
+      }
+    },
+    "android": {
+      "package": "com.kksiu.createt3turbo"
+    }
+  }
+}
